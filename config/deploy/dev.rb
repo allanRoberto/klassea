@@ -14,4 +14,4 @@ role :db, "artezzo.com.br", :primary => true
 set :wp, "cd #{current_path}/#{app_root} ; /home/artezzo/bin/wp" # (Should be the full path to the wp command on your server)
 
 # The username on the target system, if different from your local username
-ssh_options[:user] = 'artezzzo'
+ssh_options[:user] = 'artezzo'

@@ -14,3 +14,42 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /* Page Builder Modules Styles */
 @import url("./includes/builder/styles/frontend-builder-style.css?ver=2.5.3");
+
+.box-home {
+	margin-top: -160px;
+
+}
+
+.box-home img {
+	width:100%;
+	margin-top: -160px;
+	-webkit-box-shadow: 3px -8px 38px -3px rgba(0,0,0,0.58);
+-moz-box-shadow: 3px -8px 38px -3px rgba(0,0,0,0.58);
+box-shadow: 3px -8px 38px -3px rgba(0,0,0,0.58);
+}
+
+.box-home .img-first img {
+	border-radius: 10px 0 0 10px;
+}
+
+.box-home .img-last img {
+	border-radius: 0 10px 10px 0;
+}
+
+.menu-item a:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: rgba(0,0,0,0.6);
+	display: block;
+	margin-top: 5px;
+}							
+
+.current-menu-item a:after {			
+	background: #dd3333 !important;
+}
+
+.et_parallax_bg {
+	background-size: contain !important;
+	background-repeat: repeat-y !important; 
+}
