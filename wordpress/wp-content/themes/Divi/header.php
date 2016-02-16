@@ -167,6 +167,9 @@
 
 					<?php do_action( 'et_header_top' ); ?>
 				</div> <!-- #et-top-navigation -->
+				<div class="tels-header">
+					<img src="<?php echo $template_directory_uri . '/images/tels-header.png';?>" />
+				</div>
 			</div> <!-- .container -->
 			<div class="et_search_outer">
 				<div class="container et_search_form_container">

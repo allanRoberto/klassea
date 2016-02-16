@@ -193,9 +193,16 @@ background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
 
 #et-top-navigation .menu-item {
 	width: 105px;
-	padding: 40px 10px 0 10px !important;
+	padding: 40px 10px 0 10px;
 	text-align: center;
 	margin-right: -18px;
+}
+
+#top-menu li li {
+	width: auto !important;
+	margin: auto !important;
+	padding-top: 10px !important;
+	text-align: left !important;
 }
 
 .et_header_style_left #et-top-navigation nav > ul > li > a {
@@ -242,3 +249,21 @@ background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
 #et-top-navigation {
 	float: left;
 }
+
+.tels-header {
+	float: right;
+	width: 28%;
+	top: 19px;
+    position: relative;
+}
+
+.tels-header img {
+	float: right;
+}
+
+#logo {
+    max-height: 95%;
+    left: -12px;
+    position: relative;
+    top: 3px;
+   }
