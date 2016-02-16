@@ -257,6 +257,32 @@ background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
     position: relative;
 }
 
+@media all and ( max-width: 980px ) {
+	.tels-header {
+		display: none;
+	}
+
+	.mobile_menu_bar:before {
+		color: #782727 !important;
+	}
+
+	.et_mobile_menu {
+		background: #782727;
+		border-top:3px #782727 solid !important;
+	}
+
+	#et-top-navigation {
+		float: right !important;
+	}
+
+	#et-top-navigation .menu-item {
+		width: auto !important;
+		padding-top: 5px;
+		background: none !important; 
+	}
+}
+
+
 .tels-header img {
 	float: right;
 }
